@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+a#github-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #24292e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+a#github-link:hover {
+    background-color: #0366d6;
+}
